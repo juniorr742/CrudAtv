@@ -6,8 +6,11 @@ public class Gerenciador {
 
     public void Produto () {
         int quantidade = sc.nextInt();
+        String nomeProduto = sc.nextLine();
+        double preco = sc.nextDouble();
     }
-    ArrayList<> produtos = new ArrayList<>();
+
+    ArrayList<String> produtos = new ArrayList<String>();
 
     public void cadastrar () {
 
