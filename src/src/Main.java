@@ -4,6 +4,8 @@ public class Main{
     public static void main(String[] args) {
         boolean continuarMenu = true;
         Scanner sc = new Scanner(System.in);
+
+
         do {
             System.out.println("Bem vindo ao menu de produtos!!");
             System.out.println("Digite a opção desejada: ");

@@ -1,7 +1,12 @@
+import java.util.ArrayList;
+
 public class Produto {
-        private String nomeProduto;
+
+    private String nomeProduto;
         private int quantidade;
         private double preco;
+
+
 
     public Produto(String nomeProduto, double preco, int quantidade) {
         this.nomeProduto = nomeProduto;
