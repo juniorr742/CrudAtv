@@ -4,7 +4,7 @@ public class Main{
     public static void main(String[] args) {
         boolean continuarMenu = true;
         Scanner sc = new Scanner(System.in);
-
+        Gerenciador info = new Gerenciador();
 
         do {
             System.out.println("Bem vindo ao menu de produtos!!");
@@ -19,14 +19,19 @@ public class Main{
 
             switch (opcaoUsuario){
                 case 1:
+                    info.cadastrar();
                     break;
                 case 2:
+                    info.listar();
                     break;
                 case 3:
+                    info.atualizar();
                     break;
                 case 4:
+                    info.deletar();
                     break;
                 case 5:
+                    continuarMenu = false;
                     break;
             }
         }while (continuarMenu);

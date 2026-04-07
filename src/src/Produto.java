@@ -22,4 +22,10 @@ public class Produto {
 
     public int getQuantidade() { return quantidade; }
     public void setQuantidade(int quantidade) { this.quantidade = quantidade; }
+
+
+    @Override
+    public String toString(){
+        return "name " + this.nomeProduto + "Quantidade: " + this.quantidade + "Preço: " + this.preco;
+    }
 }

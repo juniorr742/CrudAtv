@@ -37,7 +37,7 @@ public class Gerenciador {
         int indice = sc.nextInt();
         Produto p = produtos.get(indice);
 
-        System.out.print("Digite o nome do produto que quer substituir");
+        System.out.print("Digite o nome do produto novo");
         String nomeProduto = sc.nextLine();
         System.out.print("Digite o preço:");
         double preco = sc.nextDouble();
@@ -55,4 +55,5 @@ public class Gerenciador {
         int numProduto = sc.nextInt();
         produtos.remove(numProduto);
     }
+
 }
